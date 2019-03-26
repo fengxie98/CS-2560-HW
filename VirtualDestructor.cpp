@@ -1,4 +1,4 @@
-// virtual destructor example   base pointer problem
+#include "pch.h"
 #include<iostream>
 using namespace std;
  
