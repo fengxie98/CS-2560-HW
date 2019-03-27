@@ -93,22 +93,22 @@ class CustomerData : public PersonData
 };
 
 int main() {
-CustomerData cust;
+CustomerData d;
 
-cust.setCustomerNumber(420);
-cust.setMailingList(true);
-cust.setlastName("Simpson");
-cust.setfirstName("Homer");
-cust.setAddress("742 Evergreen Terrace");
-cust.setCity("Springfield");
-cust.setState("NV");
-cust.setZip("89011");
-cust.setPhone("939-555-0113");
+d.setCustomerNumber(420);
+d.setMailingList(true);
+d.setlastName("Simpson");
+d.setfirstName("Homer");
+d.setAddress("742 Evergreen Terrace");
+d.setCity("Springfield");
+d.setState("NV");
+d.setZip("89011");
+d.setPhone("939-555-0113");
 
-std::cout<<"Customer Number: "<<cust.getCustomerNumber();
-std::cout<<"\nName: "<<cust.getfirstName()<<" "<<cust.getlastName();
-std::cout<<"\nAddress: "<<cust.getAddress()<<", "<<cust.getCity()<<", "<<cust.getState()<<" "<<cust.getZip();
-std::cout<<"\nPhone Number: "<<cust.getPhone();
+std::cout<<"Customer Number: "<<d.getCustomerNumber();
+std::cout<<"\nName: "<<d.getfirstName()<<" "<<d.getlastName();
+std::cout<<"\nAddress: "<<d.getAddress()<<", "<<d.getCity()<<", "<<d.getState()<<" "<<d.getZip();
+std::cout<<"\nPhone Number: "<<d.getPhone();
 
 return 0;
 }
